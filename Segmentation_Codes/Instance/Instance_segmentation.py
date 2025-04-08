@@ -27,8 +27,8 @@ def main():
     print("Model download complete!")
 
     # --- Input & Output Directories ---
-    input_dir = r"C:\Users\walat\OneDrive\Skrivebord\Mask2Former\Image\Instance\input"
-    output_dir = r"C:\Users\walat\OneDrive\Skrivebord\Mask2Former\Image\Instance\output"
+    input_dir = r"/home/wallat/Desktop/Mask2Former/Image/Instance/input"
+    output_dir = r"/home/wallat/Desktop/Mask2Former/Image/Instance/output"
     os.makedirs(output_dir, exist_ok=True)
 
     jpg_files = [f for f in os.listdir(input_dir) if f.lower().endswith(".jpg")]

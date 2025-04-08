@@ -2,10 +2,10 @@ import sys
 import argparse
 
 # Add the directories containing your segmentation modules to the module search path.
-segmentation_dir_1 = r"C:\Users\walat\OneDrive\Skrivebord\Mask2Former\Segmentation_Codes"
+segmentation_dir_1 = r"/home/wallat/Desktop/Mask2Former/Segmentation_Codes"
 #segmentation_dir_2 = r"C:\Users\walat\OneDrive\Skrivebord\Mask2Former\Segmentation_Codes\SEEM"
 #segmentation_dir_3 = r"C:\Users\walat\OneDrive\Skrivebord\Mask2Former\Segmentation_Codes\SAM"
-segmentation_dir_2 = r"C:\Users\walat\OneDrive\Skrivebord\Mask2Former\Segmentation_Codes\Instance"
+segmentation_dir_2 = r"/home/wallat/Desktop/Mask2Former/Segmentation_Codes/Instance"
 
 # Add both directories if they're not already in the system path.
 if segmentation_dir_1 not in sys.path:
