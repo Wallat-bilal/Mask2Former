@@ -1,14 +1,17 @@
 # Mask2Former
 
 You need to install 2 things for mask2former to work.
-##Torch
+## Torch
+CPU
 ```bash
-CPU: pip3 install torch torchvision torchaudio
+pip3 install torch torchvision torchaudio
 ```
+GPU
 ```bash
-GPU: pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu118
+pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu118
 ```
-##Transcormers:
+## Transcormers:
+you use this cammand in ubunto:
 ```bash
-you use this cammand in ubunto: pip3 install transformers
+pip3 install transformers
 ```
